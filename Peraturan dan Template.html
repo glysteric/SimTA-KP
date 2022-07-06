@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Teknik Komputer Final Project Repository</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/Lambang-ITS-2-320x320.png"></a>
+                <a href="index.html"><img src="images/Computer-Engineering.png"></a>
+                <div class="nav-title">
+                    <a href="index.html">TEKNIK KOMPUTER ITS</a>
+                </div>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a>Keperluan TA</a>
+                            <ul>
+                                <li><a href="Peraturan dan Template.html">Peraturan & Template</a></li>
+                                <li>Judul Proposal</li>
+                                <li>Judul TA</li>
+                                <li>POMITS</li>
+                                <li>Agenda</li>
+                            </ul>
+                        </li>    
+                        <li><a href="">Jadwal Ujian</a></li>
+                        <li><a href="">Bantuan</a></li>
+                        <li><a href="Portal.html">Portal</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+        <!------Javascript for Toggle Menu----->
+        <script>
+            var navLinks = document.getElementById("navLinks")
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-170px";
+            }
+        </script>
+        <section class="content">            
+                <div class="text-box2">
+                    <h1>Unduh Peraturan dan Template</h1>
+                    <p><b>Pendaftaran Ujian Proposal Tugas Akhir</b>
+                       <br>Unduh Template Format Pengesahan Proposal TA klik <a href="link.html">di sini</a> (untuk versi draft cukup ditandatangani calon dosen pembimbing, untuk versi final perlu tanda tangan dosen pembimbing dan kepala lab. Untuk tanda tangan ketua program studi dilakukan secara bersama-sama). <br>
+                       <br><b>Pendaftaran Ujian Tugas Akhir</b><br>                      
+                       Unduh Formulir Pernyataan Dosen Pembimbing untuk Maju TA klik <a href="link.html">di sini</a><br>
+                       Unduh Template Buku Tugas Akhir (Cover, Lembar Pengesahan, Pernyataan Keaslian) klik <a href="link.html">di sini</a><br>
+                       Unduh Pernyataan untuk Proposal TA klik <a href="link.html">di sini</a><br>
+                       <br><b>Data Dosen dan Lab</b><br>                        
+                       Data Laboratorium, Kepala Lab, dan Dosen Anggota dapat dilihat pada Link <a href="link.html">berikut</a><br>
+                       <br><b>Pedoman TA</b>  
+                       <br>Unduh Pedoman Tugas Akhir update (11 mei 2020) klik <a href="link.html">di sini</a><br>
+                       Unduh Formulir Pengajuan Bantuan Data klik <a href="link.html">di sini</a><br>
+                       Unduh Formulir Ganti Judul klik <a href="link.html">di sini</a><br>
+                       <br><b>Pedoman TA</b>  
+                       <br>Unduh Pedoman Tugas Akhir update (11 mei 2020) klik <a href="link.html">di sini</a><br>
+                       Unduh Formulir Pengajuan Bantuan Data klik <a href="link.html">di sini</a><br>
+                       Unduh Formulir Ganti Judul klik <a href="link.html">di sini</a>
+                       <br><b>Pedoman TA</b>  
+                       <br>Unduh Pedoman Tugas Akhir update (11 mei 2020) klik <a href="link.html">di sini</a><br>
+                       Unduh Formulir Pengajuan Bantuan Data klik <a href="link.html">di sini</a><br>
+                       Unduh Formulir Ganti Judul klik <a href="link.html">di sini</a>
+                    </p>
+                </div>
+           
+        </section>
+    </body>
+</html>

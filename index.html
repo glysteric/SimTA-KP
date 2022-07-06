@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Teknik Komputer Final Project Repository</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/Lambang-ITS-2-320x320.png"></a>
+                <a href="index.html"><img src="images/Computer-Engineering.png"></a>
+                <div class="nav-title">
+                    <a href="index.html">TEKNIK KOMPUTER ITS</a>
+                </div>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">Beranda</a></li>
+                        <li><a>Keperluan TA</a>
+                            <ul>
+                                <li><a href="Peraturan dan Template.html">Peraturan & Template</a></li>
+                                <li>Judul Proposal</li>
+                                <li>Judul TA</li>
+                                <li>POMITS</li>
+                                <li>Agenda</li>
+                            </ul>
+                        </li>    
+                        <li><a href="">Jadwal Ujian</a></li>
+                        <li><a href="">Bantuan</a></li>
+                        <li><a href="Portal.html">Portal</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+        <!------Javascript for Toggle Menu----->
+        <script>
+            var navLinks = document.getElementById("navLinks")
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-170px";
+            }
+        </script>
+        <section class="content">            
+                <div class="text-box">
+                    <h1>Selamat Datang</h1>
+                    <h2>Periode Ujian Proposal TA Semester Genap 2021-2022 dan Ujian TA Wisuda ke-126 bulan September 2022.</h2>
+                    <p>12 JUNI 2022<br>Proposal dan TA<br>Pelaksanaan Ujian Proposal Tugas Akhir Periode Semester GENAP 2021/2022 serta Ujian Tugas Akhir Periode Wisuda ke-126 pada bulan SEPTEMBER 2022 bisa dilihat di sini.</p>
+                </div>
+            
+        </section>
+    </body>
+</html>
